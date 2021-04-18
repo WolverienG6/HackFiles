@@ -142,7 +142,7 @@ class ProfileScreen extends StatelessWidget {
                   ? CrossFadeState.showFirst
                   : CrossFadeState.showSecond,
           firstChild: GestureDetector(
-            onTap: () => {},
+            onTap: () => ThemeSwitcher.of(context).changeTheme(theme: kLightTheme),
             child: Icon(
               LineAwesomeIcons.sun,
               size: ScreenUtil().setSp(kSpacingUnit.w * 3),
