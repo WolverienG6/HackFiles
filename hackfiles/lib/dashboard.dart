@@ -79,7 +79,7 @@ class _DashboardState extends State<Dashboard> {
                   ]),
               margin: EdgeInsets.only(right: 20.0),
               child: Visibility(
-                visible: false,
+                visible: true,
                 child: TextField(
                   decoration: InputDecoration(
                     hintText: 'Search Something',
