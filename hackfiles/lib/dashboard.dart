@@ -128,7 +128,7 @@ class _DashboardState extends State<Dashboard> {
                       children: <Widget>[
                         ClipRRect(
                             borderRadius: BorderRadius.circular(20.0),
-                            child: Image(image: AssetImage("assets/00.png"))),
+                            child: Image(image: AssetImage("assets/0.png"))),
                         Container(
                           width: MediaQuery.of(context).size.width,
                           child: Column(
@@ -179,7 +179,7 @@ class _DashboardState extends State<Dashboard> {
                       children: <Widget>[
                         ClipRRect(
                             borderRadius: BorderRadius.circular(20.0),
-                            child: Image(image: AssetImage("assets/01.png"))),
+                            child: Image(image: AssetImage("assets/1.png"))),
                         Container(
                           width: MediaQuery.of(context).size.width,
                           child: Column(
@@ -245,7 +245,7 @@ class _DashboardState extends State<Dashboard> {
                       children: <Widget>[
                         ClipRRect(
                             borderRadius: BorderRadius.circular(20.0),
-                            child: Image(image: AssetImage("assets/02.png"))),
+                            child: Image(image: AssetImage("assets/2.png"))),
                         Container(
                           width: MediaQuery.of(context).size.width,
                           child: Column(
@@ -297,7 +297,7 @@ class _DashboardState extends State<Dashboard> {
                         ClipRRect(
                             borderRadius: BorderRadius.circular(20.0),
                             child: Image(
-                              image: AssetImage("assets/03.png"),
+                              image: AssetImage("assets/3.png"),
                               alignment: Alignment.topCenter,
                             )),
                         Container(
